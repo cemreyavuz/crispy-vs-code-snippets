@@ -1,0 +1,34 @@
+{
+  "name": "crispy-vs-code-snippets",
+  "publisher": "cuneytemreyavuz",
+  "displayName": "crispy/vs-code-snippets",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eusbolh/crispy-vs-code-snippets/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eusbolh/crispy-vs-code-snippets/blob/main/README.md"
+  },
+  "homepage": "https://github.com/eusbolh/crispy-vs-code-snippets",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescript",
+        "path": "./snippets/typescript.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/typescriptreact.json"
+      }
+    ]
+  }
+}
