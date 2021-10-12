@@ -1,11 +1,30 @@
 {
-  "Create Functional Component": {
+  "Create Functional Component with Interface": {
     "prefix": "crfc",
     "body": [
       "import React from 'react';",
       "",
       "interface $0Props {",
       "}",
+      "",
+      "const $0 = (props: $0Props): JSX.Element => {",
+      "  return (",
+      "    <div>$0</div>",
+      "  );",
+      "};",
+      "",
+      "export default $0;",
+      ""
+    ],
+    "description": "Creates a functional component"
+  },
+  "Create Functional Component with Type": {
+    "prefix": "crfct",
+    "body": [
+      "import React from 'react';",
+      "",
+      "type $0Props = {",
+      "};",
       "",
       "const $0 = (props: $0Props): JSX.Element => {",
       "  return (",
@@ -28,8 +47,16 @@
     "body": ["useEffect(() => {", "  $1", "}, []);"],
     "description": "Quick initialization for useEffect hook"
   },
+  "Styled Components Quick Initialization for HTML Elements": {
+    "prefix": ["styled", "styledh"],
+    "body": ["const Styled$0 = styled.$1``;"]
+  },
+  "Styled Components Quick Initialization for React Components": {
+    "prefix": ["styled", "styledr"],
+    "body": ["const Styled$0 = styled($1)``;"]
+  },
   "Styled Components Quick Import": {
-    "prefix": ["sc", "styledc"],
+    "prefix": ["sc"],
     "body": ["import styled from 'styled-components';"],
     "description": "Quick import for styled-components package"
   }
