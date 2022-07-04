@@ -49,11 +49,11 @@
   },
   "Styled Components Quick Initialization for HTML Elements": {
     "prefix": ["styled", "styledh"],
-    "body": ["const Styled$0 = styled.$1``;"]
+    "body": ["const Styled$2 = styled.$1`$0`;"]
   },
   "Styled Components Quick Initialization for React Components": {
     "prefix": ["styledr"],
-    "body": ["const Styled$0 = styled($1)``;"]
+    "body": ["const Styled$2 = styled($1)`$0`;"]
   },
   "Styled Components Quick Import": {
     "prefix": ["sc"],
