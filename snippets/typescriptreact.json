@@ -59,5 +59,21 @@
     "prefix": ["sc"],
     "body": ["import styled from 'styled-components';"],
     "description": "Quick import for styled-components package"
+  },
+  "Interface": {
+    "prefix": ["int"],
+    "body": ["interface ${1/(.*)/${0:/capitalize}/} {}"]
+  },
+  "Interface with Export Statement": {
+    "prefix": ["intexp"],
+    "body": ["export interface ${1/(.*)/${0:/capitalize}/} {}"]
+  },
+  "Type": {
+    "prefix": ["type"],
+    "body": ["type ${1/(.*)/${0:/capitalize}/} = {};"]
+  },
+  "Type with Export Statement": {
+    "prefix": ["typeexp"],
+    "body": ["export type ${1/(.*)/${0:/capitalize}/} = {};"]
   }
 }
