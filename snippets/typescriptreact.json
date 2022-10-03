@@ -4,16 +4,16 @@
     "body": [
       "import React from 'react';",
       "",
-      "interface $0Props {",
+      "interface ${1/(.*)/${0:/capitalize}/}Props {",
       "}",
       "",
-      "const $0 = (props: $0Props): JSX.Element => {",
+      "const ${1/(.*)/${0:/capitalize}/} = (props: ${1/(.*)/${0:/capitalize}/}Props): JSX.Element => {",
       "  return (",
-      "    <div>$0</div>",
+      "    <div>${1/(.*)/${0:/capitalize}/}</div>",
       "  );",
       "};",
       "",
-      "export default $0;",
+      "export default ${1/(.*)/${0:/capitalize}/};",
       ""
     ],
     "description": "Creates a functional component"
@@ -23,16 +23,16 @@
     "body": [
       "import React from 'react';",
       "",
-      "type $0Props = {",
+      "type ${1/(.*)/${0:/capitalize}/}Props = {",
       "};",
       "",
-      "const $0 = (props: $0Props): JSX.Element => {",
+      "const ${1/(.*)/${0:/capitalize}/} = (props: ${1/(.*)/${0:/capitalize}/}Props): JSX.Element => {",
       "  return (",
-      "    <div>$0</div>",
+      "    <div>${1/(.*)/${0:/capitalize}/}</div>",
       "  );",
       "};",
       "",
-      "export default $0;",
+      "export default ${1/(.*)/${0:/capitalize}/};",
       ""
     ],
     "description": "Creates a functional component"
