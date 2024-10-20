@@ -2,18 +2,14 @@
   "Create Functional Component with Interface": {
     "prefix": "crfc",
     "body": [
-      "import React from 'react';",
-      "",
       "interface $0Props {",
       "}",
       "",
-      "const $0 = (props: $0Props): JSX.Element => {",
+      "export const $0 = (props: $0Props): JSX.Element => {",
       "  return (",
       "    <div>$0</div>",
       "  );",
       "};",
-      "",
-      "export default $0;",
       ""
     ],
     "description": "Creates a functional component"
@@ -21,18 +17,14 @@
   "Create Functional Component with Type": {
     "prefix": "crfct",
     "body": [
-      "import React from 'react';",
-      "",
       "type $0Props = {",
       "};",
       "",
-      "const $0 = (props: $0Props): JSX.Element => {",
+      "export const $0 = (props: $0Props): JSX.Element => {",
       "  return (",
       "    <div>$0</div>",
       "  );",
       "};",
-      "",
-      "export default $0;",
       ""
     ],
     "description": "Creates a functional component"
